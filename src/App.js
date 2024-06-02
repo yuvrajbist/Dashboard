@@ -175,7 +175,7 @@ function App() {
           </div>
         </div>
         <div class="p-4 flex">
-          <div class="w-[300px] rounded overflow-hidden shadow-lg">
+          <div class="w-[300px] rounded overflow-hidden shadow-lg shadow-black border-2 border-slate-800">
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2 text-white">Reciever</div>
               <p class="text-white text-base">
@@ -183,15 +183,15 @@ function App() {
               </p>
             </div>
           </div>
-          <div class="w-[300px] rounded overflow-hidden shadow-lg">
+          <div class="w-[300px] rounded overflow-hidden shadow-lg shadow-black border-2 border-slate-800">
             <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2 text-white">Potocol</div>
+              <div class="font-bold text-xl mb-2 text-white">Protocol</div>
               <p class="text-white text-base">
               <CanvasJSChart options = {options1}/>
               </p>
             </div>
           </div>
-          <div class="w-[300px] rounded overflow-hidden shadow-lg">
+          <div class="w-[300px] rounded overflow-hidden shadow-lg shadow-black border-2 border-slate-800">
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2 text-white">Source</div>
               <p class="text-gray-700 text-base">
